@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Live for dead</title>
+  
+  <subtitle>YJ my love</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://livefordead.github.io/"/>
+  <updated>2019-12-15T08:17:02.345Z</updated>
+  <id>http://livefordead.github.io/</id>
+  
+  <author>
+    <name>livefordead</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello everyone</title>
+    <link href="http://livefordead.github.io/2019/12/15/Hello-everyone/"/>
+    <id>http://livefordead.github.io/2019/12/15/Hello-everyone/</id>
+    <published>2019-12-15T07:47:48.000Z</published>
+    <updated>2019-12-15T08:17:02.345Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="关于这个博客"><a href="#关于这个博客" class="headerlink" title="关于这个博客"></a>关于这个博客</h1><p>首先，要感谢<a href="https://lemonprefect.cn/" target="_blank" rel="noopener">Lemon</a>的技术支持，在创建了这个博客的时候我已经入大学三个月了，这个博客我会用来记录自己的一些学习经历，平时的刷题的一些报告（坑？），算法之类的，希望可以多向大佬们学习，最后争取超越他们。</p><h1 id="当下"><a href="#当下" class="headerlink" title="当下"></a>当下</h1><p>新生赛发挥不错，进入了网安组，承蒙老师学长厚爱，和同届大佬们的谦让，我有幸成为了19级组长，</p><p>希望与大家一同努力进步，誓必不辜负大家的信任。</p><h1 id="将来的想法"><a href="#将来的想法" class="headerlink" title="将来的想法"></a>将来的想法</h1><p>网安组是两个方向，web和pwn，说实在的我现在两个都挺感兴趣，所以还在思考，至于其它的高数英语之类的学习太尼玛蛋疼了，就尼玛离谱，还有历史什么的，很让人头大，总之，先学着就完事了。</p><p style='color:red'>感谢你来到了这个小地方.]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;关于这个博客&quot;&gt;&lt;a href=&quot;#关于这个博客&quot; class=&quot;headerlink&quot; title=&quot;关于这个博客&quot;&gt;&lt;/a&gt;关于这个博客&lt;/h1&gt;&lt;p&gt;首先，要感谢&lt;a href=&quot;https://lemonprefect.cn/&quot; target=&quot;_blan
+      
+    
+    </summary>
+    
+    
+    
+      <category term="成长记录" scheme="http://livefordead.github.io/tags/%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+</feed>
