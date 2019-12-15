@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://livefordead.github.io/"/>
-  <updated>2019-12-15T19:09:41.122Z</updated>
+  <updated>2019-12-15T19:17:46.084Z</updated>
   <id>http://livefordead.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://livefordead.github.io/2019/12/16/Rule-Taking-0/"/>
     <id>http://livefordead.github.io/2019/12/16/Rule-Taking-0/</id>
     <published>2019-12-15T18:37:04.000Z</published>
-    <updated>2019-12-15T19:09:41.122Z</updated>
+    <updated>2019-12-15T19:17:46.084Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="尺取法-Rule-Taking"><a href="#尺取法-Rule-Taking" class="headerlink" title="尺取法 (Rule Taking)"></a>尺取法 (Rule Taking)</h1><h2 style="color:green">常见用法</h2>一个数组中寻找长度最（小 / 大）的一段满足和最大或者大于某一个定值<h2 style="color:green">主要思想</h2>当 a1 , a2 , a3 ...... an 满足和 >= S，得到一个区间长度 n，那么去掉开头 a1，剩下 a2 , a3 ... 判断是否满足 >= S，<b style="color:red">如果满足</b>，那么区间长度更新，<b style="color:red">如果不满足</b>，那么尾部向后延展，判断 a2 , a3 ...... a (n + 1) 是否满足条件，重复这样的操作<h2 style="color:green">理解与思考</h2>当一个区间<b style="color:blue">满足条件</b>时，那么去掉区间开头第一个数，得到新区间，判断新区间是否满足条件，如果不满足条件，那么区间末尾向后扩展，直到满足条件为止，这样就得到了很多满足条件的区间，再根据题意，在此之间进行选择，比如区间最长，区间最短啥的，这样跑一遍下来，时间复杂度只有 O (n)<h2 style="color:purple">比如</h2>给出 T 组数据，每组数据有 n 个数，并且每次给你一个 s 值，求最小的满足相加大于 s 的连续子序列的长度]]></content>
+    <content type="html"><![CDATA[<h1 id="尺取法-Rule-Taking"><a href="#尺取法-Rule-Taking" class="headerlink" title="尺取法 (Rule Taking)"></a>尺取法 (Rule Taking)</h1><h2 style="color:green">常见用法</h2>一个数组中寻找长度最（小 / 大）的一段满足和最大或者大于某一个定值<h2 style="color:green">主要思想</h2>当 a1 , a2 , a3 ...... an 满足和 >= S，得到一个区间长度 n，那么去掉开头 a1，剩下 a2 , a3 ... 判断是否满足 >= S，<b style="color:red">如果满足</b>，那么区间长度更新，<b style="color:red">如果不满足</b>，那么尾部向后延展，判断 a2 , a3 ...... a (n + 1) 是否满足条件，重复这样的操作<h2 style="color:green">理解与思考</h2>当一个区间<b style="color:blue">满足条件</b>时，那么去掉区间开头第一个数，得到新区间，判断新区间是否满足条件，如果不满足条件，那么区间末尾向后扩展，直到满足条件为止，这样就得到了很多满足条件的区间，再根据题意，在此之间进行选择，比如区间最长，区间最短啥的，这样跑一遍下来，时间复杂度只有 O (n)<h2 style="color:purple">比如</h2>给出 T 组数据，每组数据有 n 个数，并且每次给你一个 s 值，求最小的满足相加大于 s 的连续子序列的长度<p>详情请前往<a herf="http://poj.org/problem?id=3061">POJ_3061</a></p><p>下面贴代码（C语言）</p><p>#include&lt;stdio.h&gt;</p><p>int a[100005]; //定义一个数组来储存每组的数</p><p>int main(void)</p><p>{<br>    int T;</p><p>​    scanf(“%d”, &amp;T);</p><p>​    while(T–)</p><p>​    {<br>​        int n, s;</p><p>​        scanf(“%d %d”, &amp;n, &amp;s);</p><p>​        for(int i = 1; i &lt;= n; i++)</p><p>​            scanf(“%d”, &amp;a[i]);  //赋值</p><p>​        int k = n + 1;</p><p>​        int u = 0;</p><p>​        int v = 0;</p><p>​        int m = 0; //清零操作</p><p>​        for(;;)</p><p>​        {</p><p>​            while(m &lt; s &amp;&amp; v &lt; n)</p><p>​                m = m + a[++v];  //从第一个数开始增加，直到和大于等于 s 或者在 v 大于等于 n 的时候还</p><p>​                                             // 是要小，就结束循环</p><p>​            if(m &lt; s)  //判断和是否大于s,其实就是看整个数段总和是否大于s，如果不就跳出循环</p><p>​                break;</p><p>​            if(k &gt; v - u)  // u 作为数段的前标，v 作为数段的后标，v - u 就是数段的长度</p><p>​                k = v - u; //取小的</p><p>​            m = m - a[u++]; //在确定 s 比现在的和小后，从前面开始缩短数段，再进行循环</p><p>​        }</p><p>​        if(k == n + 1) //这是所有数的和都比 s 小的情况</p><p>​            k = 0;</p><p>​        printf(“%d\n”, k);  //输出</p><p>​    }</p><p>​    return 0;</p><p>}</p><h3 style="color:green">有点想说的</h3><p>emm第一个传上来的学习的……emm今晚去参加了元旦晚会的二审，没什么时间学习了，惭愧，然后就是报名了明年的蓝桥杯，需要准备（毕竟交了300嗷嗷嗷嗷），所以整理了一个算法专栏，回顾以前学的，更新新学习的，emm暂时也就这些了，我会坚持下去嗷。（话说博客真香哇）</p>]]></content>
     
     <summary type="html">
     
