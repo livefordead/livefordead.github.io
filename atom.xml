@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://livefordead.github.io/"/>
-  <updated>2019-12-16T05:08:36.016Z</updated>
+  <updated>2019-12-16T06:32:29.208Z</updated>
   <id>http://livefordead.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://livefordead.github.io/2019/12/16/%E6%B1%87%E7%BC%96/"/>
     <id>http://livefordead.github.io/2019/12/16/%E6%B1%87%E7%BC%96/</id>
     <published>2019-12-16T04:54:40.000Z</published>
-    <updated>2019-12-16T05:08:36.016Z</updated>
+    <updated>2019-12-16T06:32:29.208Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="汇编语言"><a href="#汇编语言" class="headerlink" title="汇编语言"></a>汇编语言</h1><h2 id="1-基础知识"><a href="#1-基础知识" class="headerlink" title="1.基础知识"></a>1.基础知识</h2><p><strong>a.</strong> 汇编语言与机器语言的区别在于<em>指令的表示方式</em></p><p><strong>b.</strong> 汇编语言由 3 类指令组成：</p><ol><li>汇编指令：机器码的助记符，有对应的机器码</li><li>伪指令：没有对应的机器码，由编译器执行，计算机并不执行</li><li>其他符号：如 +、-、*、/ 等，由编译器识别，没有对应的机器码</li></ol><p><strong>c.</strong> </p><p>(未完……….)</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="PWN——汇编"><a href="#PWN——汇编" class="headerlink" title="PWN——汇编"></a>PWN——汇编</h1><p>最近在了解PWN和WEB，PWN的话先是说搞汇编，就学一下，我寻思掌握了的基础知识也没有丢上来的必要，就记录一下遇到的坎和重难点之类的吧</p><h2 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h2><p><strong>a.</strong> 汇编语言与机器语言的区别在于<em>指令的表示方式</em></p><p><strong>b.</strong> 汇编语言由 3 类指令组成：</p><ol><li>汇编指令：机器码的助记符，有对应的机器码</li><li>伪指令：没有对应的机器码，由编译器执行，计算机并不执行</li><li>其他符号：如 +、-、*、/ 等，由编译器识别，没有对应的机器码</li></ol><p>(未完……….)</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;汇编语言&quot;&gt;&lt;a href=&quot;#汇编语言&quot; class=&quot;headerlink&quot; title=&quot;汇编语言&quot;&gt;&lt;/a&gt;汇编语言&lt;/h1&gt;&lt;h2 id=&quot;1-基础知识&quot;&gt;&lt;a href=&quot;#1-基础知识&quot; class=&quot;headerlink&quot; title=&quot;1.基础知
+        &lt;h1 id=&quot;PWN——汇编&quot;&gt;&lt;a href=&quot;#PWN——汇编&quot; class=&quot;headerlink&quot; title=&quot;PWN——汇编&quot;&gt;&lt;/a&gt;PWN——汇编&lt;/h1&gt;&lt;p&gt;最近在了解PWN和WEB，PWN的话先是说搞汇编，就学一下，我寻思掌握了的基础知识也没有丢上来的必要
       
     
     </summary>
