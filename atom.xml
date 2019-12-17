@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://livefordead.github.io/"/>
-  <updated>2019-12-17T01:36:44.745Z</updated>
+  <updated>2019-12-17T05:12:24.365Z</updated>
   <id>http://livefordead.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linked list</title>
+    <link href="http://livefordead.github.io/2019/12/17/Linked-list/"/>
+    <id>http://livefordead.github.io/2019/12/17/Linked-list/</id>
+    <published>2019-12-17T05:12:24.000Z</published>
+    <updated>2019-12-17T05:12:24.365Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>About Struct</title>
