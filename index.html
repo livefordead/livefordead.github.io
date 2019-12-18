@@ -102,13 +102,16 @@
 
 建立
 输出
+查找
+修改
 插入
 删除
 倒置
 粉碎
 
 建立与输出要实现其他基本操作，首先先要创建一个链表，并能够将其输出，此处将建立与输出整合到一起
-12345678910111213141516171819202122232425262728293031323334353637383940#include &lt;stdio.h&gt;#include &lt;stdlib.h&gt;struct S&#123;	int data;  //数值域	struct S* next;  //指针域&#125;;i ...</div><div class="recent-post-tags"><a class="post-tag fa fa-tag" href="javascript:void(0)" date-tags="思考与学习"> 思考与学习</a></div><div class="read-more"><a class="more" href="/2019/12/17/Linked-list/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2019/12/17/About-Struct/">About Struct</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2019-12-17T00:44:34.000Z">2019-12-17</time></div><div class="recent-post-content">结构体写这个主要是之前第一次用结构体AC了一道题，就巨兴奋，感觉想要记录下来，然后结构体在刷题中的确蛮好玩的，挺香，接下来是我之前刷过的两道题（应该会补充）
+尾插法创建单链表这样生成的链表为正序
+代码1234567891011121314151617181920212223242526272829303132333435363738394041#include &lt;stdio.h&gt;#include &lt;stdlib.h&gt;struct S&#123;	int data;  //数值域	s ...</div><div class="recent-post-tags"><a class="post-tag fa fa-tag" href="javascript:void(0)" date-tags="思考与学习"> 思考与学习</a></div><div class="read-more"><a class="more" href="/2019/12/17/Linked-list/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2019/12/17/About-Struct/">About Struct</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2019-12-17T00:44:34.000Z">2019-12-17</time></div><div class="recent-post-content">结构体写这个主要是之前第一次用结构体AC了一道题，就巨兴奋，感觉想要记录下来，然后结构体在刷题中的确蛮好玩的，挺香，接下来是我之前刷过的两道题（应该会补充）
 HDU1004题目大意有很多组测试，每一组首先给出一个数值，代表接下来出现的颜色个数，如果给出的数值为 0，则结束测试，每一组中，要你输出出现最多的颜色
 理解每种不一样的颜色使用一个结构体储存（储存名字和数量），每次输入都对储存不同颜色的结构体数组进行一次遍历，使用strcmp判断是否这个颜色已经“记录在案”，如果没有存在则使用strcpy将其储存下来（记得第一次特判（I think））
 代码12345678910111213141516 ...</div><div class="recent-post-tags"><a class="post-tag fa fa-tag" href="javascript:void(0)" date-tags="刷题"> 刷题</a></div><div class="read-more"><a class="more" href="/2019/12/17/About-Struct/#more">ReadMore</a></div><hr></div><div class="recent-post-item"><div class="post-title"><a href="/2019/12/16/%E4%B9%9D%E4%BD%99%E5%AE%9A%E7%90%86/">九余</a></div><div class="post-time"><i class="fa fa-table"></i><time datetime="2019-12-16T12:15:15.000Z">2019-12-16</time></div><div class="recent-post-content">九余定理九余定理是一个和数学有关的知识，可以了解一下
