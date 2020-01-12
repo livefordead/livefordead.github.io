@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://livefordead.github.io/2020/01/12/String/</loc>
+    
+    <lastmod>2020-01-12T14:08:52.755Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://livefordead.github.io/2020/01/09/Queue/</loc>
+    
+    <lastmod>2020-01-12T14:05:41.640Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://livefordead.github.io/2020/01/09/Stack/</loc>
     
-    <lastmod>2020-01-12T09:14:02.389Z</lastmod>
+    <lastmod>2020-01-12T13:54:45.445Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://livefordead.github.io/2019/12/17/Linked-list/</loc>
     
-    <lastmod>2020-01-09T15:36:55.610Z</lastmod>
+    <lastmod>2020-01-12T09:27:06.101Z</lastmod>
     
   </url>
   
@@ -40,13 +54,6 @@
     <loc>http://livefordead.github.io/2020/01/09/Hash-table/</loc>
     
     <lastmod>2020-01-09T14:15:41.372Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://livefordead.github.io/2020/01/09/Queue/</loc>
-    
-    <lastmod>2020-01-09T14:15:07.848Z</lastmod>
     
   </url>
   
