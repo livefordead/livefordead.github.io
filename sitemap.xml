@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://livefordead.github.io/2020/01/09/Binary-tree/</loc>
+    
+    <lastmod>2020-01-17T14:04:12.328Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://livefordead.github.io/2020/01/12/String/</loc>
     
-    <lastmod>2020-01-12T14:08:52.755Z</lastmod>
+    <lastmod>2020-01-12T14:33:52.288Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://livefordead.github.io/2020/01/09/Quick-Sort/</loc>
     
     <lastmod>2020-01-09T14:31:29.920Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://livefordead.github.io/2020/01/09/Binary-tree/</loc>
-    
-    <lastmod>2020-01-09T14:17:59.692Z</lastmod>
     
   </url>
   
