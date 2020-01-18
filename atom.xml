@@ -18,8 +18,8 @@
   
   <entry>
     <title>String</title>
-    <link href="http://livefordead.github.io/2020/01/12/String/"/>
-    <id>http://livefordead.github.io/2020/01/12/String/</id>
+    <link href="http://livefordead.github.io/2020/01/12/string/"/>
+    <id>http://livefordead.github.io/2020/01/12/string/</id>
     <published>2020-01-12T14:08:52.000Z</published>
     <updated>2020-01-12T14:33:52.288Z</updated>
     
@@ -42,8 +42,8 @@
   
   <entry>
     <title>Binary tree</title>
-    <link href="http://livefordead.github.io/2020/01/09/Binary-tree/"/>
-    <id>http://livefordead.github.io/2020/01/09/Binary-tree/</id>
+    <link href="http://livefordead.github.io/2020/01/09/binary-tree/"/>
+    <id>http://livefordead.github.io/2020/01/09/binary-tree/</id>
     <published>2020-01-09T14:17:59.000Z</published>
     <updated>2020-01-18T09:22:18.460Z</updated>
     
@@ -67,8 +67,8 @@
   
   <entry>
     <title>Quick Select</title>
-    <link href="http://livefordead.github.io/2020/01/09/Quick-Select/"/>
-    <id>http://livefordead.github.io/2020/01/09/Quick-Select/</id>
+    <link href="http://livefordead.github.io/2020/01/09/quick-select/"/>
+    <id>http://livefordead.github.io/2020/01/09/quick-select/</id>
     <published>2020-01-09T14:16:14.000Z</published>
     <updated>2020-01-09T14:16:14.681Z</updated>
     
@@ -82,8 +82,8 @@
   
   <entry>
     <title>Quick Sort</title>
-    <link href="http://livefordead.github.io/2020/01/09/Quick-Sort/"/>
-    <id>http://livefordead.github.io/2020/01/09/Quick-Sort/</id>
+    <link href="http://livefordead.github.io/2020/01/09/quick-sort/"/>
+    <id>http://livefordead.github.io/2020/01/09/quick-sort/</id>
     <published>2020-01-09T14:16:05.000Z</published>
     <updated>2020-01-09T14:31:29.920Z</updated>
     
@@ -105,8 +105,8 @@
   
   <entry>
     <title>Hash table</title>
-    <link href="http://livefordead.github.io/2020/01/09/Hash-table/"/>
-    <id>http://livefordead.github.io/2020/01/09/Hash-table/</id>
+    <link href="http://livefordead.github.io/2020/01/09/hash-table/"/>
+    <id>http://livefordead.github.io/2020/01/09/hash-table/</id>
     <published>2020-01-09T14:15:41.000Z</published>
     <updated>2020-01-09T14:15:41.372Z</updated>
     
@@ -120,8 +120,8 @@
   
   <entry>
     <title>Queue</title>
-    <link href="http://livefordead.github.io/2020/01/09/Queue/"/>
-    <id>http://livefordead.github.io/2020/01/09/Queue/</id>
+    <link href="http://livefordead.github.io/2020/01/09/queue/"/>
+    <id>http://livefordead.github.io/2020/01/09/queue/</id>
     <published>2020-01-09T14:15:07.000Z</published>
     <updated>2020-01-12T14:05:41.640Z</updated>
     
@@ -145,8 +145,8 @@
   
   <entry>
     <title>Stack</title>
-    <link href="http://livefordead.github.io/2020/01/09/Stack/"/>
-    <id>http://livefordead.github.io/2020/01/09/Stack/</id>
+    <link href="http://livefordead.github.io/2020/01/09/stack/"/>
+    <id>http://livefordead.github.io/2020/01/09/stack/</id>
     <published>2020-01-09T14:14:43.000Z</published>
     <updated>2020-01-12T13:54:45.445Z</updated>
     
@@ -170,8 +170,8 @@
   
   <entry>
     <title>Linked list</title>
-    <link href="http://livefordead.github.io/2019/12/17/Linked-list/"/>
-    <id>http://livefordead.github.io/2019/12/17/Linked-list/</id>
+    <link href="http://livefordead.github.io/2019/12/17/linked-list/"/>
+    <id>http://livefordead.github.io/2019/12/17/linked-list/</id>
     <published>2019-12-17T05:12:24.000Z</published>
     <updated>2020-01-12T09:27:06.101Z</updated>
     
@@ -197,8 +197,8 @@
   
   <entry>
     <title>About Struct</title>
-    <link href="http://livefordead.github.io/2019/12/17/About-Struct/"/>
-    <id>http://livefordead.github.io/2019/12/17/About-Struct/</id>
+    <link href="http://livefordead.github.io/2019/12/17/about-struct/"/>
+    <id>http://livefordead.github.io/2019/12/17/about-struct/</id>
     <published>2019-12-17T00:44:34.000Z</published>
     <updated>2019-12-17T01:36:44.745Z</updated>
     
@@ -221,8 +221,8 @@
   
   <entry>
     <title>九余</title>
-    <link href="http://livefordead.github.io/2019/12/16/%E4%B9%9D%E4%BD%99%E5%AE%9A%E7%90%86/"/>
-    <id>http://livefordead.github.io/2019/12/16/%E4%B9%9D%E4%BD%99%E5%AE%9A%E7%90%86/</id>
+    <link href="http://livefordead.github.io/2019/12/16/jiu-yu-ding-li/"/>
+    <id>http://livefordead.github.io/2019/12/16/jiu-yu-ding-li/</id>
     <published>2019-12-16T12:15:15.000Z</published>
     <updated>2019-12-16T12:30:30.609Z</updated>
     
@@ -244,8 +244,8 @@
   
   <entry>
     <title>My opinion</title>
-    <link href="http://livefordead.github.io/2019/12/16/My-opinion/"/>
-    <id>http://livefordead.github.io/2019/12/16/My-opinion/</id>
+    <link href="http://livefordead.github.io/2019/12/16/my-opinion/"/>
+    <id>http://livefordead.github.io/2019/12/16/my-opinion/</id>
     <published>2019-12-16T06:46:40.000Z</published>
     <updated>2019-12-17T02:44:46.384Z</updated>
     
@@ -268,8 +268,8 @@
   
   <entry>
     <title>汇编</title>
-    <link href="http://livefordead.github.io/2019/12/16/%E6%B1%87%E7%BC%96/"/>
-    <id>http://livefordead.github.io/2019/12/16/%E6%B1%87%E7%BC%96/</id>
+    <link href="http://livefordead.github.io/2019/12/16/hui-bian/"/>
+    <id>http://livefordead.github.io/2019/12/16/hui-bian/</id>
     <published>2019-12-16T04:54:40.000Z</published>
     <updated>2019-12-17T02:44:47.206Z</updated>
     
@@ -292,8 +292,8 @@
   
   <entry>
     <title>HDU 2054</title>
-    <link href="http://livefordead.github.io/2019/12/16/HDU-2054/"/>
-    <id>http://livefordead.github.io/2019/12/16/HDU-2054/</id>
+    <link href="http://livefordead.github.io/2019/12/16/hdu-2054/"/>
+    <id>http://livefordead.github.io/2019/12/16/hdu-2054/</id>
     <published>2019-12-15T20:10:29.000Z</published>
     <updated>2019-12-18T05:51:11.037Z</updated>
     
@@ -316,8 +316,8 @@
   
   <entry>
     <title>Some Complaing</title>
-    <link href="http://livefordead.github.io/2019/12/16/Some-Complaing/"/>
-    <id>http://livefordead.github.io/2019/12/16/Some-Complaing/</id>
+    <link href="http://livefordead.github.io/2019/12/16/some-complaing/"/>
+    <id>http://livefordead.github.io/2019/12/16/some-complaing/</id>
     <published>2019-12-15T19:44:57.000Z</published>
     <updated>2019-12-15T19:59:01.463Z</updated>
     
@@ -341,8 +341,8 @@
   
   <entry>
     <title>Rule Taking</title>
-    <link href="http://livefordead.github.io/2019/12/16/Rule-Taking-0/"/>
-    <id>http://livefordead.github.io/2019/12/16/Rule-Taking-0/</id>
+    <link href="http://livefordead.github.io/2019/12/16/rule-taking-0/"/>
+    <id>http://livefordead.github.io/2019/12/16/rule-taking-0/</id>
     <published>2019-12-15T18:37:04.000Z</published>
     <updated>2019-12-17T02:37:04.781Z</updated>
     
@@ -365,8 +365,8 @@
   
   <entry>
     <title>Hello everyone</title>
-    <link href="http://livefordead.github.io/2019/12/15/Hello-everyone/"/>
-    <id>http://livefordead.github.io/2019/12/15/Hello-everyone/</id>
+    <link href="http://livefordead.github.io/2019/12/15/hello-everyone/"/>
+    <id>http://livefordead.github.io/2019/12/15/hello-everyone/</id>
     <published>2019-12-15T07:47:48.000Z</published>
     <updated>2019-12-16T03:26:35.351Z</updated>
     

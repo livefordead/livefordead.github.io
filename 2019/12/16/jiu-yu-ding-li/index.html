@@ -4,10 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="汇编, csx2001126">
-    <meta name="description" content="PWN——汇编最近在了解PWN和WEB，PWN的话先是说搞汇编，就学一下，我寻思掌握了的基础知识也没有丢上来的必要，就记录一下遇到的坎和重难点之类的吧
-1. 一些基本概念a. 汇编语言与机器语言的区别在于指令的表示方式
-b. 汇编语言由 3">
+    <meta name="keywords" content="九余, csx2001126">
+    <meta name="description" content="九余定理九余定理是一个和数学有关的知识，可以了解一下
+首先要介绍九余数的概念：一个数的各位数字之和相加后得到的&amp;lt;10的数字称为这个数（如果相加结果大于9，则继续各位相加）
+然后是九余定理的定义：一个数 x，他的每个位上的数加起来为 y">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -15,7 +15,7 @@ b. 汇编语言由 3">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>汇编 | Live for dead</title>
+    <title>九余 | Live for dead</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,7 @@ b. 汇编语言由 3">
     <script src="/libs/jquery/jquery.min.js"></script>
     
 <meta name="generator" content="Hexo 4.1.1"><link rel="alternate" href="/atom.xml" title="Live for dead" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -306,12 +306,12 @@ b. 汇编语言由 3">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">汇编</h1>
+                    <h1 class="description center-align post-title">九余</h1>
                 </div>
             </div>
         </div>
@@ -426,13 +426,9 @@ b. 汇编语言由 3">
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E6%80%9D%E8%80%83%E4%B8%8E%E5%AD%A6%E4%B9%A0/">
-                                <span class="chip bg-color">思考与学习</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -461,15 +457,18 @@ b. 汇编语言由 3">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="PWN——汇编"><a href="#PWN——汇编" class="headerlink" title="PWN——汇编"></a>PWN——汇编</h1><p>最近在了解PWN和WEB，PWN的话先是说搞汇编，就学一下，我寻思掌握了的基础知识也没有丢上来的必要，就记录一下遇到的坎和重难点之类的吧</p>
-<h2 id="1-一些基本概念"><a href="#1-一些基本概念" class="headerlink" title="1. 一些基本概念"></a><b style="color:red">1. 一些基本概念</b></h2><p><strong>a.</strong> 汇编语言与机器语言的区别在于<em>指令的表示方式</em></p>
-<p><strong>b.</strong> 汇编语言由 3 类指令组成：</p>
-<ol>
-<li>汇编指令：机器码的助记符，有对应的机器码</li>
-<li>伪指令：没有对应的机器码，由编译器执行，计算机并不执行</li>
-<li>其他符号：如 +、-、*、/ 等，由编译器识别，没有对应的机器码</li>
-</ol>
-<p>(未完……….)</p>
+                <h1 id="九余定理"><a href="#九余定理" class="headerlink" title="九余定理"></a>九余定理</h1><p>九余定理是一个和数学有关的知识，可以了解一下</p>
+<p>首先要介绍<b style="color:red">九余数的概念</b>：一个数的各位数字之和相加后得到的&lt;10的数字称为这个数（如果相加结果大于9，则继续各位相加）</p>
+<p>然后是<b style="color:red">九余定理的定义</b>：一个数 x，他的每个位上的数加起来为 y，九余数为（y - 1）再对 9 求余然后加1，用 C 语言表示就是 ( y - 1 ) % 9 + 1</p>
+<p>emmm，就是说一个数，如果我要求它的九余数，怎么求呢，这样求？</p>
+<h4 id="代码一"><a href="#代码一" class="headerlink" title="代码一"></a><b style="color:green">代码一</b></h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> s, t;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">while</span> ((<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n) != EOF) &amp;&amp; (n != <span class="number">0</span>))</span><br><span class="line">	&#123;</span><br><span class="line">		s = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span> (;;)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">for</span> (;;)</span><br><span class="line">			&#123;</span><br><span class="line">				s = s + n % <span class="number">10</span>;</span><br><span class="line">				n = n / <span class="number">10</span>;</span><br><span class="line">				<span class="keyword">if</span> (n == <span class="number">0</span>)</span><br><span class="line">					<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span> (s &lt; <span class="number">10</span>)</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			n = s;</span><br><span class="line">			s = <span class="number">0</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%d\n"</span>, s);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这是我第一次做的时候的代码，发现在处理较大的数时行不通，所以就换一种，再看看这种？</p>
+<h4 id="代码二"><a href="#代码二" class="headerlink" title="代码二"></a><b style="color:green">代码二</b></h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> x[<span class="number">10000</span>];</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">scanf</span>(<span class="string">"%s"</span>, &amp;x)&amp;&amp;(x[<span class="number">0</span>] != <span class="string">'0'</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> t=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(i = <span class="number">0</span>; x[i]; ++i)</span><br><span class="line">            t = t + x[i] - <span class="string">'0'</span>;</span><br><span class="line">        t = t % <span class="number">9</span>;</span><br><span class="line">        <span class="keyword">if</span>(!t)</span><br><span class="line">        &#123;</span><br><span class="line">            t = <span class="number">9</span>;</span><br><span class="line">            <span class="keyword">if</span>(x[<span class="number">0</span>] == <span class="string">'0'</span>)                             <span class="comment">//这里是特判 0 的情况</span></span><br><span class="line">                t = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, t);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>就诞生了这个代码，没办法，因为处理较大的数的时候只好用字符来存储，但是还是不够简洁，下面就是九余定理</p>
+<h4 id="代码三"><a href="#代码三" class="headerlink" title="代码三"></a><b style="color:green">代码三</b></h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> n[<span class="number">100000</span>];</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">while</span>((<span class="built_in">scanf</span>(<span class="string">"%s"</span>,n)!=EOF)&amp;&amp;n[<span class="number">0</span>]!=<span class="string">'0'</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> s = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(i = <span class="number">0</span>; i &lt; <span class="built_in">strlen</span>(n); i++)</span><br><span class="line">            s = s + n[i] - <span class="string">'0'</span>;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, (s - <span class="number">1</span>) % <span class="number">9</span> + <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
             </div>
             <hr/>
@@ -495,7 +494,7 @@ b. 汇编语言由 3">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://livefordead.github.io/2019/12/16/%E6%B1%87%E7%BC%96/">http://livefordead.github.io/2019/12/16/%E6%B1%87%E7%BC%96/</a>
+                    <a href="http://livefordead.github.io/2019/12/16/jiu-yu-ding-li/">http://livefordead.github.io/2019/12/16/jiu-yu-ding-li/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -532,11 +531,7 @@ b. 汇编语言由 3">
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/%E6%80%9D%E8%80%83%E4%B8%8E%E5%AD%A6%E4%B9%A0/">
-                                    <span class="chip bg-color">思考与学习</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -704,25 +699,25 @@ b. 汇编语言由 3">
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/16/My-opinion/">
+                <a href="/2019/12/17/about-struct/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="My opinion">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="About Struct">
                         
-                        <span class="card-title">My opinion</span>
+                        <span class="card-title">About Struct</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            对管理系统的一些看法整个这个幺蛾子呢，主要是平时学习学累了的时候就可以看看别的组的任务，还挺香的。
-主体方面无论是哪个管理系统，都不可能脱离注册、登录、信息修改、设置管理员是不是，还有美观界面等等其它骚操作，所以我们分成点一个一个地解决，一
+                            结构体写这个主要是之前第一次用结构体AC了一道题，就巨兴奋，感觉想要记录下来，然后结构体在刷题中的确蛮好玩的，挺香，接下来是我之前刷过的两道题（应该会补充）
+HDU1004题目大意有很多组测试，每一组首先给出一个数值，代表接下来出现的颜色个
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-16
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-17
                         </span>
                         <span class="publish-author">
                             
@@ -735,8 +730,8 @@ b. 汇编语言由 3">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%80%9D%E8%80%83%E4%B8%8E%E5%AD%A6%E4%B9%A0/">
-                        <span class="chip bg-color">思考与学习</span>
+                    <a href="/tags/%E5%88%B7%E9%A2%98/">
+                        <span class="chip bg-color">刷题</span>
                     </a>
                     
                 </div>
@@ -750,19 +745,20 @@ b. 汇编语言由 3">
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/12/16/HDU-2054/">
+                <a href="/2019/12/16/my-opinion/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="HDU 2054">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="My opinion">
                         
-                        <span class="card-title">HDU 2054</span>
+                        <span class="card-title">My opinion</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HDU2054 !A==B?吐槽HDU2054这道题，好久之前做的一道挺有意思的水题，这一题从暑假开始一直A到开学后十几天，终于是做出来了，一开始太天真地以为它真的就是道下饭的题（虽然的确挺水），结果自己的操作是真的下饭，很离谱，但是后来还
+                            对管理系统的一些看法整个这个幺蛾子呢，主要是平时学习学累了的时候就可以看看别的组的任务，还挺香的。
+主体方面无论是哪个管理系统，都不可能脱离注册、登录、信息修改、设置管理员是不是，还有美观界面等等其它骚操作，所以我们分成点一个一个地解决，一
                         
                     </div>
                     <div class="publish-info">
@@ -780,8 +776,8 @@ b. 汇编语言由 3">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%88%B7%E9%A2%98/">
-                        <span class="chip bg-color">刷题</span>
+                    <a href="/tags/%E6%80%9D%E8%80%83%E4%B8%8E%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">思考与学习</span>
                     </a>
                     
                 </div>
