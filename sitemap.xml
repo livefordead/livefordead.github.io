@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://livefordead.github.io/friends/index.html</loc>
+    
+    <lastmod>2020-01-18T11:27:49.978Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://livefordead.github.io/about/index.html</loc>
+    
+    <lastmod>2020-01-18T11:26:53.375Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://livefordead.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-01-18T11:26:22.331Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://livefordead.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-01-18T11:25:43.672Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://livefordead.github.io/2020/01/09/Binary-tree/</loc>
     
     <lastmod>2020-01-18T09:22:18.460Z</lastmod>
