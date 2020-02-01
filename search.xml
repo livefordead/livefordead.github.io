@@ -208,25 +208,6 @@
     
     
     <entry>
-      <title>汇编</title>
-      <link href="/2019/12/16/%E6%B1%87%E7%BC%96/"/>
-      <url>/2019/12/16/%E6%B1%87%E7%BC%96/</url>
-      
-        <content type="html"><![CDATA[<h1 id="PWN——汇编"><a href="#PWN——汇编" class="headerlink" title="PWN——汇编"></a>PWN——汇编</h1><p>最近在了解PWN和WEB，PWN的话先是说搞汇编，就学一下，我寻思掌握了的基础知识也没有丢上来的必要，就记录一下遇到的坎和重难点之类的吧</p><h2 id="1-一些基本概念"><a href="#1-一些基本概念" class="headerlink" title="1. 一些基本概念"></a><b style="color:red">1. 一些基本概念</b></h2><p><strong>a.</strong> 汇编语言与机器语言的区别在于<em>指令的表示方式</em></p><p><strong>b.</strong> 汇编语言由 3 类指令组成：</p><ol><li>汇编指令：机器码的助记符，有对应的机器码</li><li>伪指令：没有对应的机器码，由编译器执行，计算机并不执行</li><li>其他符号：如 +、-、*、/ 等，由编译器识别，没有对应的机器码</li></ol><p>(未完……….)</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 思考与学习 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>HDU 2054</title>
       <link href="/2019/12/16/HDU-2054/"/>
       <url>/2019/12/16/HDU-2054/</url>
